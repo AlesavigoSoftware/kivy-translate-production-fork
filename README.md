@@ -10,7 +10,7 @@ Kivy translate have 2 parts:
 - Handler in runtime to translate messages on fly
 
 ---
-**NOTE**
+**NOTE**  
 Code is not well tested, some bugs may exist, message me if something is not ok.
 ---
 
@@ -58,7 +58,7 @@ filter_extensions = [".py", ".kv"]
 
 ## Usage translations inside app
 ---
-**NOTE**
+**NOTE**  
 After version 0.2.0 `Trans` class have to be imported from package.  
 ---
 
@@ -101,7 +101,7 @@ Label:
 They will change when `Trans.refresh_translations()` is called
 
 ---
-**NOTE**
+**NOTE**  
 All missing strings (not included in `kv_translations`)
 will be replaced with "???????"
 ---
@@ -168,8 +168,6 @@ Remember to collect and compile messages !
 **NOTE**  
 To use kivy_translate with kivy import  
 `from kivy_translate.kvtranslate import Trans`  
-
-
 To use kivy_translate with generic python import  
 `from kivy_translate.translate import Trans`
 ---
